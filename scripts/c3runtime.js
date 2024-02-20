@@ -4303,7 +4303,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.TriggerOnce,
 		C3.Behaviors.DragnDrop.Acts.SetEnabled,
 		C3.Plugins.System.Acts.CreateObject,
-		C3.Plugins.Sprite.Cnds.CompareY
+		C3.Plugins.Sprite.Cnds.CompareY,
+		C3.Plugins.Sprite.Cnds.CompareX
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4608,7 +4609,9 @@ self.C3_ExpressionFuncs = [
 		() => 960,
 		() => 730,
 		() => "",
-		() => 200
+		() => 200,
+		() => 1900,
+		() => 20
 ];
 
 
